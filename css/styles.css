@@ -38,7 +38,13 @@ header h2 {
 
 .jumbotron {
     color: white;
-    margin-top: 42vh;
+    margin-top: 30vh;
+}
+
+.fa-solid,
+.navbar-toggler {
+    border-color: #ff00d4;
+    color: #ffffff;
 }
 
 .btn-primary {
