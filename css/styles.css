@@ -42,7 +42,7 @@ header h2 {
 
 .jumbotron {
     color: white;
-    margin-top: 30vh;
+    margin-top: 5vh;
 }
 
 .fa-solid,
@@ -54,6 +54,31 @@ header h2 {
 .btn-primary {
     background-color: rgba(0, 0, 255, 0);
     border-color: #ff00d4;
+}
+
+* {
+    box-sizing: border-box;
+    scroll-snap-type: y mandatory;
+}
+
+.scrollPage {
+    width: auto;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    scroll-snap-align: center;
+}
+
+.jumbotron:not(.container) {
+    background-color: rgba(55, 0, 255, 0.5);
+    border-radius: 1rem;
+}
+
+.home {
+    background-color: rgba(0, 0, 0, 0);
 }
 
 @keyframes move {
